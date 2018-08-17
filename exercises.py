@@ -23,7 +23,12 @@ for num in orders:
 # ...
 # ...
 # 'Now serving number 5.'
+now_serving= 0
 
+while now_serving < 5:
+    print('Now serving number ' + str(now_serving))
+    now_serving += 1
+print('Now serving number ' + str(now_serving))
 
 #3 3 is a Magic Number
 #Create a while loop that will generate a multiplication table for the number 3 and print out the following:
