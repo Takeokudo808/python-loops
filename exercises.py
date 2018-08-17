@@ -40,7 +40,8 @@ print('Now serving number ' + str(now_serving))
 # ...
 # ...
 # 9 x 3 = 27
-
+for number in range(1, 10):
+    print(number * 3)
 
 #4. Uber This!
 # Declare a variable named cars and assign it a list of 5 of your favorite car brands. Next create a for loop that will iterate through the cars list and prints the following: 'My next car will be a red x.' Where x represents each item in the list.
