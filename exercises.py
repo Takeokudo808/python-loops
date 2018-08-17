@@ -11,7 +11,9 @@
 # ...
 # ...
 ##'Number 8, your order is ready.'
-
+orders= [1, 2, 3, 4, 5, 6, 7, 8]
+for num in orders:
+    print('Number ' + str(num) + ', your order is ready.')
 
 #2 Now Serving
 #Create a while loop that will print the following message:
