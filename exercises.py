@@ -53,7 +53,10 @@ for car in cars:
 
 #5 Uber This Again
 #Print each item in the above cars list using a while loop.
-
+car_make = 0
+while car_make < len(cars):
+    print(cars[car_make])
+    car_make += 1
     
 #6  No More Tears
 # Create a for loop that will iterate through the cyber attacks list and prints the following: 
