@@ -127,7 +127,7 @@ for code in zip_codes:
     if code == 96822:
         continue
     print(code)
-    
+
 #12 Fizz Buzz!
 #The classic programming task is back! Use a for loop that will iterate through 100 numbers starting from 1. Your job is to program the following:
 
@@ -148,6 +148,15 @@ for code in zip_codes:
 # 14
 # Fizz Buzz
 
+for num in range(1, 101):
+    if num % 5 == 0 and num % 3 == 0:
+        print('Fizz Buzz')
+    elif num % 3 == 0:
+        print('Fizz')
+    elif num % 5 == 0:
+        print('Buzz')
+    else:
+        print(str(num))
 
 #13 Fizz Buzz Again 
 #Do the same thing again using a while loop.
