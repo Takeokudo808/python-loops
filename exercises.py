@@ -113,7 +113,10 @@ print(east_side)
 
 #10 Breaking Up is Easy
 #Create a for loop that will iterate through 10 even numbers (starting from 0) and stop printing at 10.
-
+for number in range(2, 20, 2):
+    if number == 10:
+        break
+    print(number)
 
 #11 Zip Codes
 #Create a for loop that will iterate through the zip codes list below and print all the zip codes except for 96822.
