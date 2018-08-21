@@ -99,6 +99,18 @@ add_up(10)
 
 rappers = ['Tupac', 'Biggie', 'Ice Cube', 'Nas', 'Snoop', '50 Cent', 'Nate Dogg', 'Wu Tang Clan', 'Kendrick Lamar']
 
+weessst_siiide = []
+east_side = []
+def rivalry(list):
+    for rapper in list:
+        if list.index(rapper)%2 == 0:
+            weessst_siiide.append(rapper)
+        else:
+            east_side.append(rapper)
+rivalry(rappers)
+print(weessst_siiide)
+print(east_side)
+
 #10 Breaking Up is Easy
 #Create a for loop that will iterate through 10 even numbers (starting from 0) and stop printing at 10.
 
