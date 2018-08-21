@@ -161,3 +161,14 @@ for num in range(1, 101):
 #13 Fizz Buzz Again 
 #Do the same thing again using a while loop.
 
+count= 0
+while count < 101:
+    if count % 5 == 0 and count % 3 == 0:
+        print('Fizz Buzz')
+    elif count % 3 == 0:
+        print('Fizz')
+    elif count % 5 == 0:
+        print('Buzz')
+    else:
+        print(count)
+    count +=1
